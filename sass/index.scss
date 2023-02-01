@@ -1,0 +1,29 @@
+@import "abstracts/varables";
+@import "abstracts/mixins";
+@import "base/base";
+@import "base/typo";
+@import "base/animations";
+@import "base/utilites";
+@import "components/button";
+@import "components/nav";
+
+/* scss 폴더구조
+abstracts/
+    _mixin.scss
+    _varables.scss
+
+base/
+  _animations.scss
+  _base.scss
+  _typo.scss
+  _utilites.scss
+
+components/
+  _button.scss
+  _nav.scss
+
+layout/
+  _footer.scss
+  _header.scss
+  _main.scss*/
+
